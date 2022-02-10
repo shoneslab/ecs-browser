@@ -32,6 +32,7 @@ import java.util.Map.Entry;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.bind.JAXBContext;
+//import jakarta.xml.bind.JAXBContext;
 
 import org.eclipse.jetty.util.StringUtil;
 import org.springframework.http.HttpHeaders;
@@ -414,8 +415,7 @@ public class ServiceController {
     /**
      * @param data
      * @param parameters 
-     * @param headers 
-     * @param responseClass
+     * @param headers
      * @return
      * @throws Exception
      */
